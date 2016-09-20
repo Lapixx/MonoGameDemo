@@ -1,6 +1,5 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
-using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
 namespace MonoApp
@@ -8,20 +7,24 @@ namespace MonoApp
     public class MyGame : Game
     {
 
-        GraphicsDeviceManager graphics;
+//        private GraphicsDeviceManager graphics;
 
         public MyGame()
         {
-            graphics = new GraphicsDeviceManager(this);
-            Console.WriteLine("init");
+//            graphics = new GraphicsDeviceManager(this);
+
+            string message = Greeter.SayHello("world");
+            Console.WriteLine(message);
         }
 
         protected override void Update(GameTime gameTime)
         {
-            if (GamePad.GetState(PlayerIndex.One).Buttons.Back ==
-                ButtonState.Pressed || Keyboard.GetState().IsKeyDown(
-                    Keys.Escape))
+            if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed ||
+                Keyboard.GetState().IsKeyDown(Keys.Escape))
+            {
                 Exit();
+            }
+
             base.Update(gameTime);
         }
 

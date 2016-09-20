@@ -1,0 +1,11 @@
+/Users/tijn/RiderProjects/MonoApp/MonoApp.Test/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/tijn/RiderProjects/MonoApp/MonoApp.Test/bin/Debug/MonoApp.Test.dll.mdb
+/Users/tijn/RiderProjects/MonoApp/MonoApp.Test/bin/Debug/MonoApp.Test.dll
+/Users/tijn/RiderProjects/MonoApp/MonoApp.Test/obj/Debug/MonoApp.Test.dll
+/Users/tijn/RiderProjects/MonoApp/MonoApp.Test/obj/Debug/MonoApp.Test.dll.mdb
+/Users/tijn/RiderProjects/MonoApp/MonoApp.Test/bin/Debug/nunit.framework.dll
+/Users/tijn/RiderProjects/MonoApp/MonoApp.Test/bin/Debug/MonoApp.exe
+/Users/tijn/RiderProjects/MonoApp/MonoApp.Test/bin/Debug/MonoApp.exe.mdb
+/Users/tijn/RiderProjects/MonoApp/MonoApp.Test/bin/Debug/MonoGame.Framework.dll
+/Users/tijn/RiderProjects/MonoApp/MonoApp.Test/bin/Debug/OpenTK.dll
+/Users/tijn/RiderProjects/MonoApp/MonoApp.Test/bin/Debug/NVorbis.dll
