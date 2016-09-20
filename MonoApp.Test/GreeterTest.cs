@@ -20,14 +20,13 @@ namespace MonoApp.Test
             Assert.AreEqual(result, "Bye, Bob!");
         }
 
-        /*
         [Test]
+        [Ignore("For demo only - Do not break the CI build")]
         public void FailingTest()
         {
             int x = 5;
             int y = 8;
             Assert.AreEqual(x, y);
         }
-        */
     }
 }
