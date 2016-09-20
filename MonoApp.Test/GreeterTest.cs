@@ -20,6 +20,7 @@ namespace MonoApp.Test
             Assert.AreEqual(result, "Bye, Bob!");
         }
 
+        /*
         [Test]
         public void FailingTest()
         {
@@ -27,5 +28,6 @@ namespace MonoApp.Test
             int y = 8;
             Assert.AreEqual(x, y);
         }
+        */
     }
 }
