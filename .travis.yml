@@ -1,5 +1,7 @@
 language: csharp
 solution: MonoApp.sln
+notifications:
+  email: false
 install:
   - nuget restore MonoApp.sln
   - nuget install NUnit.Runners -Version 3.4.1 -OutputDirectory testrunner
