@@ -1,0 +1,7 @@
+# IDE config
+.idea
+
+# Build artifacts
+MonoApp/bin/
+MonoApp/obj/
+
