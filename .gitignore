@@ -4,4 +4,6 @@
 # Build artifacts
 MonoApp/bin/
 MonoApp/obj/
+MonoApp.Test/bin/
+MonoApp.Test/obj/
 
