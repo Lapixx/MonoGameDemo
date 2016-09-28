@@ -7,13 +7,13 @@ namespace MonoApp
     public class MyGame : Game
     {
 
-        private GraphicsDeviceManager graphics;
+        private GraphicsDeviceManager _graphics;
 
         public MyGame()
         {
 
             // unused - but needs to be initialised to work
-            graphics = new GraphicsDeviceManager(this);
+            _graphics = new GraphicsDeviceManager(this);
 
             string message = Greeter.SayHello("world");
             Console.WriteLine(message);
